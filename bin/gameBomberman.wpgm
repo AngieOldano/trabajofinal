@@ -1,0 +1,24 @@
+
+import wollok.game.*
+
+
+program pacman {
+	
+	game.title("Bomberman!")
+	
+	// límites del juego
+	game.width(14)
+	game.height(8)
+	
+	// fondo
+	game.boardGround("assets/background.jpg")
+	
+	// personaje principal
+	//game.addVisualCharacter(bomberman)
+	
+	// que arranque el juego!
+	game.start()
+	
+}
+
+	
